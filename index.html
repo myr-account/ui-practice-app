@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="iosui.js"></script>
+    <title>Document</title>
+</head>
+<body>        
+        <div class="container">
+            <div class="row">
+                    <div class="col-sm-4 offset-sm-4">
+                        <h1 style="text-align: center;">Maitre D</h1>
+                        <br>
+                            <label for="total">Total</label> <input type="text" id="total" size="37"><br><br>
+                                <div class="row">
+                                        <div class="col-sm-6">
+                                                Tip: $<span id="tip">0.00</span>
+                                        </div>
+                                        <div class="col-sm-6">
+                                                <label >Rate</label> <input type="text" id="rate" size="10"><br><br>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                            Tax: $<span id="tax">0.00</span>
+                                            <br>
+                                            <br>
+                                    </div>    
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        Grand Total: $<span id="grandt">0.00</span><br><br>
+                                    </div>      
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4 offset-sm-4">
+                                        <button type="button" class="btn" onclick="calc()" style="color: blueviolet; font-size: 1.4em">Calculate</button>
+                                    </div>    
+                                </div>
+                            </div>
+                    </div>
+            </div>
+        </div>
+</body>
+</html>
