@@ -5,7 +5,7 @@ function calc(){
     {
      document.getElementById("tip").innerHTML = "$";
      document.getElementById("tax").innerHTML = "$";
-     document.getElementById("grandt").innerHTML="Entered values are not valid";
+     document.getElementById("grandt").innerHTML="Entered 'Total' or 'Rate' is not valid";
     }
     else
     {
